@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Jared Arcilla</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,14 +25,13 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
+      <span class="site-heading-lower">Jared Arcilla</span>
     </h1>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="/index.html">Jared Arcilla</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,14 +43,14 @@
               </a>
             </li>
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="projects.html">Projects</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <!--li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
-            </li>
+            </li-->
           </ul>
         </div>
       </div>
@@ -59,17 +58,60 @@
 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/imdb.jpg" alt="" width="500" height="600">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">April 2018</span>
-                  <span class="section-heading-lower">Sentiment Classfier for IMDb Reviews</span>
+                  <a href="https://github.com/jparcill/imdb_review_sentiment/blob/master/LSTM%20implementation.ipynb" target="_blank"
+                    <span class="section-heading-lower">Sentiment Analysis for IMDB Reviews</span>
+                  </a>
                 </h2>
-                <!--p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-                <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p-->
+                <p class="mb-0">Model for predicting the sentiment of a movie review. This project allowed me to learn and implement word embeddings, and LSTM layers to understand how the user was feeling about a movie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/Pokemon.jpg" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">March 2018</span>
+                  <a href="https://www.kaggle.com/jaredarcilla/pokemon-in-a-random-forest" target="_blank"
+                    <span class="section-heading-lower">Pokemon Winner Predictor</span>
+                  </a>
+                </h2>
+                <p class="mb-0">Trained a Random Forest Classifier to predict the outcome of a Pokemon battle. I applied feature engineering to produce a column that estimated type advantages betwen two Pokemon, raising the accuracy by 10%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/killing_viz.png" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">September 2017</span>
+                  <a href="https://bl.ocks.org/jparcill/raw/4de9755e488e9b568083058d19a87c12/" target="_blank"
+                    <span class="section-heading-lower">Police Killing Data Visualization</span>
+                  </a>
+                </h2>
+                <p class="mb-0">An interactive data visualization to bring attention to police killings in America using a dataset provided by the Guardian. The visualization was made with Javascript and d3.js. The data was cleaned using Python and Pandas.</p>
               </div>
             </div>
           </div>
