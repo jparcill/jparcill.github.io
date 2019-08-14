@@ -4,15 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */body {
     font-family: Lora;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 235, 215, .5))), url(../img/bg.jpg);
-    background: linear-gradient(rgba(47, 23, 15, .65)), url(../img/bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,217,218, .5))), url(../img/gallery.jpg);
+    background: linear-gradient(rgba(100, 85, 85, .8)), url(../img/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 h1, h2, h3, h4, h5, h6 {
+	margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
     font-family: Raleway;
 }
+a {
+	color: #75767F
+}
+	
 p {
     line-height: 1.75;
 }
@@ -44,6 +52,7 @@ p {
     text-transform: uppercase;
 }
 .section-heading .section-heading-upper {
+	color:
     display: block;
     font-size: 1rem;
     font-weight: 800;
@@ -194,12 +203,12 @@ p {
     box-shadow: 0 3px 3px 0 rgba(33, 37, 41, .1);
 }
 .btn-primary {
-    background-color: #e6a756;
-    border-color: #e6a756;
+    background-color: #84D6CF;
+    border-color: #84D6CF;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #df902a;
-    border-color: #df902a;
+    background-color: #F3E1DD;
+    border-color: #F3E1DD;
 }
 .font-weight-light {
     font-weight: 100!important;

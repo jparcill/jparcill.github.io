@@ -25,22 +25,17 @@
   <body>
 
     <h1 class="site-heading text-center">
-      <!--span class="site-heading-lower">Jared Arcilla</span-->
-      <img src="img/name.png" alt="Jared Arcilla" height="30%" width="30%">
-      <img class="headshot" src="img/headshot.jpg" height="30%" width="30%">
+      <span class="site-heading-lower">Jared Arcilla</span>
+      <!--img src="img/name.png" alt="Jared Arcilla" height="30%" width="30%"-->
+      <!--img class="headshot" src="img/headshot.jpg" height="30%" width="30%"-->
     </h1>
-    
-    <div class="logos" align="center">
-      <img class="linkedin" src="img/linkedin.png" height="3%" width="3%">
-      <img class="kaggle" src="img/kaggle.png" height="3%" width="3%">
-      <img class="github" src="img/github.png" height="3%" width="3%">
-    </div>
+
 	
 
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/headshot.jpg" alt="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/headshot2.jpg" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-lower">Summary</span>
@@ -50,7 +45,7 @@
 
             <b>Skills:</b> Data Analysis, Data Visualization, Machine Learning, Natural Language Processing <br>
             <b>Technologies:</b> Sklearn, Keras, Tensorflow, Tableau, PySpark, d3 <br>
-            <b>Languages:</b> Python, C, SQL, Javascript
+            <b>Languages:</b> Python, SAS, SQL
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="/pdf/JaredArcilla.pdf" download>Download Resume</a>
             </div>
@@ -59,21 +54,91 @@
       </div>
     </section>
 
-    <!--section class="page-section cta">
+	<h1 align="center">Projects</h1>
+	
+	<section class="page-section about-heading">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Our Promise</span>
-                <span class="section-heading-lower">To You</span>
-              </h2>
-              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/dog.png" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">February 2019</span>
+                  <a href="https://github.com/jparcill/gansbestfriend" target="_blank"
+                    <span class="section-heading-lower">GANs Best Friend</span>
+                  </a>
+                </h2>
+                <p class="mb-0">Low resolution dog image generator using Pytorch and DCGAN techniques. This happens to be one of my favourite projects so far, letting me dip a toe into the world of AI art.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section-->
+    </section>
+	
+	<section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/imdb.jpg" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">April 2018</span>
+                  <a href="https://github.com/jparcill/imdb_review_sentiment/blob/master/LSTM%20implementation.ipynb" target="_blank"
+                    <span class="section-heading-lower">Sentiment Analysis for IMDB Reviews</span>
+                  </a>
+                </h2>
+                <p class="mb-0">Model for predicting the sentiment of a movie review. This project allowed me to learn and implement word embeddings, and LSTM layers to understand how the user was feeling about a movie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/Pokemon.jpg" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">March 2018</span>
+                  <a href="https://www.kaggle.com/jaredarcilla/pokemon-in-a-random-forest" target="_blank"
+                    <span class="section-heading-lower">Pokemon Winner Predictor</span>
+                  </a>
+                </h2>
+                <p class="mb-0">Trained a Random Forest Classifier to predict the outcome of a Pokemon battle. I applied feature engineering to produce a column that estimated type advantages betwen two Pokemon, raising the accuracy by 10%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/killing_viz.png" alt="" width="500" height="600">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">September 2017</span>
+                  <a href="https://bl.ocks.org/jparcill/raw/4de9755e488e9b568083058d19a87c12/" target="_blank"
+                    <span class="section-heading-lower">Police Killing Data Visualization</span>
+                  </a>
+                </h2>
+                <p class="mb-0">An interactive data visualization to bring attention to police killings in America using a dataset provided by the Guardian. The visualization was made with Javascript and d3.js. The data was cleaned using Python and Pandas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
