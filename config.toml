@@ -1,0 +1,46 @@
+baseURL = "https://jaredarcilla.com/"
+languageCode = "en-us"
+title = "Jared"
+theme = "noteworthy"
+enableRobotsTXT = true
+
+paginate = 4
+summaryLength = 10
+
+[taxonomies]
+    tag = "tags"
+[author]
+    name = "jared"
+[params]
+math = true
+description = "Movies, bonsai, tech and more. Head on over to the about page to learn about me."
+showReadMore = true
+
+email = "arcillajared@gmail.com"
+twitter = "https://twitter.com/jaaycilla"
+instagram = "https://instagram.com/no_sarembo"
+linkedin = "https://linkedin.com/in/jared-arcilla"
+
+# Programming
+github = "https://github.com/jparcill"
+
+## Main Menu
+[[menu.main]]
+name = "about"
+weight = 2
+url = "/about/"
+
+[[menu.main]]
+name = "projects"
+weight = 3
+url = "/projects/"
+
+[[menu.main]]
+name = "tags"
+weight = 4
+url = "/tags/"
+
+[[menu.main]]
+name = "archives"
+weight = 5
+url = "/archives/"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My small piece of the pie. on Jared</title>
+    <link>https://jaredarcilla.com/</link>
+    <description>Recent content in My small piece of the pie. on Jared</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jaredarcilla.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This is a review</title>
+      <link>https://jaredarcilla.com/posts/this_is_review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaredarcilla.com/posts/this_is_review/</guid>
+      <description>My gosh golly this movie was amazing</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jaredarcilla.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaredarcilla.com/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://jaredarcilla.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaredarcilla.com/projects/</guid>
+      <description>GAN&amp;rsquo;s Best Friend See it here
+Low resolution dog image generator using Pytorch and DCGAN techniques.</description>
+    </item>
+    
+    <item>
+      <title>What is this?</title>
+      <link>https://jaredarcilla.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaredarcilla.com/about/</guid>
+      <description>This is just a peek into my ordinary life. My name is Jared Arcilla.</description>
+    </item>
+    
+  </channel>
+</rss>
