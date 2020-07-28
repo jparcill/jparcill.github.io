@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Jared</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2020 22:51:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 17:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jparcill.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>reading</title>
       <link>https://jparcill.github.io/tags/reading/</link>
-      <pubDate>Sun, 28 Jun 2020 22:51:00 -0400</pubDate>
+      <pubDate>Tue, 28 Jul 2020 17:30:00 -0400</pubDate>
       
       <guid>https://jparcill.github.io/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://jparcill.github.io/tags/review/</link>
+      <pubDate>Tue, 28 Jul 2020 17:30:00 -0400</pubDate>
+      
+      <guid>https://jparcill.github.io/tags/review/</guid>
       <description></description>
     </item>
     

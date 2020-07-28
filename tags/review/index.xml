@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reading on Jared</title>
-    <link>https://jparcill.github.io/tags/reading/</link>
-    <description>Recent content in reading on Jared</description>
+    <title>review on Jared</title>
+    <link>https://jparcill.github.io/tags/review/</link>
+    <description>Recent content in review on Jared</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jul 2020 17:30:00 -0400</lastBuildDate>
     
-	<atom:link href="https://jparcill.github.io/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jparcill.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@
       
       <guid>https://jparcill.github.io/posts/mans_search_for_meaning_review/</guid>
       <description>Man&amp;rsquo;s Search for Meaning is a 1946 book by Viktor Frankl chronicling his experiences as a prisoner in Nazi concentration camps during World War II, and describing his psychotherapeutic method, which involved identifying a purpose in life to feel positive about, and then immersively imagining that outcome.</description>
-    </item>
-    
-    <item>
-      <title>July Reading List</title>
-      <link>https://jparcill.github.io/posts/july_reading_list/</link>
-      <pubDate>Sun, 28 Jun 2020 22:51:00 -0400</pubDate>
-      
-      <guid>https://jparcill.github.io/posts/july_reading_list/</guid>
-      <description>Since the start of the year, I&amp;rsquo;ve been keeping trying to revive my old habit of reading with some success.</description>
     </item>
     
   </channel>
