@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Jared</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2020 17:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 16:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jparcill.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>emacs</title>
+      <link>https://jparcill.github.io/tags/emacs/</link>
+      <pubDate>Sat, 01 Aug 2020 16:00:00 -0400</pubDate>
+      
+      <guid>https://jparcill.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://jparcill.github.io/tags/tech/</link>
+      <pubDate>Sat, 01 Aug 2020 16:00:00 -0400</pubDate>
+      
+      <guid>https://jparcill.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>reading</title>
