@@ -242,9 +242,9 @@ if (!doNotTrack) {
 <li>There are no discernable patterns over time</li>
 </ol>
 <h2 id="introducing-the-middle-square-method">Introducing the Middle Square Method</h2>
-<p>One of the earliest random number generators is called the &ldquo;middle-square method&rdquo;. The method creates random numbers from 1 to 9999.</p>
+<p>One of the earliest random number generators is called the &ldquo;middle-square method&rdquo;. The method creates random numbers from 0 to 9999.</p>
 <ol>
-<li>Pick a &ldquo;seed&rdquo; number from 1 to 999</li>
+<li>Pick a &ldquo;seed&rdquo; number from 0 to 9999</li>
 <li><strong>Square</strong> that seed number.</li>
 <li><strong>Remove</strong> 2 digits from both sides. The result is your new number</li>
 </ol>
@@ -275,7 +275,7 @@ if (!doNotTrack) {
 <p>How do we simulate a dice roll out of this? Unless we&rsquo;re in need of a 10000-sided die, this doesn&rsquo;t seem to be very useful.</p>
 <p>All we need to do is to split 10000 into 6 roughly equal parts:</p>
 <ul>
-<li>1 to 1667</li>
+<li>0 to 1667</li>
 <li>1668 to 3333</li>
 <li>3334 to 5000</li>
 <li>5001 to 6667</li>
