@@ -6,7 +6,16 @@
     <description>Recent content in My small piece of the pie. on Jared</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 12:43:00 -0500</lastBuildDate><atom:link href="https://jparcill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 20:53:00 -0500</lastBuildDate><atom:link href="https://jparcill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roll Dice Like A Computer: A Pseudo-Random Journey</title>
+      <link>https://jparcill.github.io/posts/roll_dice/</link>
+      <pubDate>Thu, 11 Mar 2021 20:53:00 -0500</pubDate>
+      
+      <guid>https://jparcill.github.io/posts/roll_dice/</guid>
+      <description>Like Oil and Water It&amp;rsquo;s easy to take randomness for granted, especially because we live in such a chaotic world!</description>
+    </item>
+    
     <item>
       <title>Testing Disqus</title>
       <link>https://jparcill.github.io/posts/testing_disqus/</link>

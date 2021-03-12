@@ -2,13 +2,12 @@
 
 <html lang="en-us">
     <head>
-	<meta name="generator" content="Hugo 0.80.0" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>Jared</title>
+    <title>Roll Dice Like A Computer: A Pseudo-Random Journey | Jared</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,8 +28,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="https://jparcill.github.io/index.xml" title="Jared" />
     
 <script type="application/javascript">
 var doNotTrack = false;
@@ -167,142 +164,210 @@ if (!doNotTrack) {
 
         <div id="content" class="content-container">
         
-<div class = "article-content">
-        
-        <div class="description">
-            <p>Movies, bonsai, tech and more. Head on over to the about page to learn about me.</p>
-        </div>
-        
-        
-        
-        
-        <article>
-            <h2>
-                <a href="https://jparcill.github.io/posts/roll_dice/">
-                    Roll Dice Like A Computer: A Pseudo-Random Journey
-                </a>
-            </h2>
-            <div>
-                <p>Like Oil and Water It&rsquo;s easy to take randomness for granted, especially because we live in such a chaotic world!</p>
-                
-                <p><a href="/posts/roll_dice/">Read more...</a></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>March 11, 2021</time>
 
-            
-            
-                
-                    <a class="tag" href="/tags/math">#math</a>
-                
-                    <a class="tag" href="/tags/stats">#stats</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="https://jparcill.github.io/posts/testing_disqus/">
-                    Testing Disqus
-                </a>
-            </h2>
-            <div>
-                <p>I have to write a blog for one of my assignments that requires comments.</p>
-                
-                <p><a href="/posts/testing_disqus/">Read more...</a></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>February 26, 2021</time>
+<h1 class="post-title">Roll Dice Like A Computer: A Pseudo-Random Journey</h1>
+    
+    <time>March 11, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="like-oil-and-water">Like Oil and Water</h2>
+<p>It&rsquo;s easy to take randomness for granted, especially because we live in such a chaotic world! With a flip of the coin, you&rsquo;ve generated a truly random result. For computers, it&rsquo;s not that easy.</p>
+<p>Computers follow strict rules which are the opposite of random. So how do computers generate randomness? The short answer is: they don&rsquo;t. Rather, your computer does the next best thing which is to generate pseudo-random numbers. Read pseudo as &ldquo;pretend&rdquo; random numbers. A set of fixed rules and instructions create these numbers not randomness. These instructions make up what we call a <strong>random number generator</strong> or RNG for short.</p>
+<figure>
+    <img src="/ox-hugo/Depositphotos_53302095_m.jpg" width="100%"/> 
+</figure>
 
-            
-            
-                
-                    <a class="tag" href="/tags/blog">#blog</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="https://jparcill.github.io/posts/wonder_egg_priority_first_thoughts/">
-                    Wonder Egg Priority (First Thoughts)
-                </a>
-            </h2>
-            <div>
-                <p>Wonder What Priority?  While on a midnight stroll, a girl named Ai picks up an egg.</p>
-                
-                <p><a href="/posts/wonder_egg_priority_first_thoughts/">Read more...</a></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>February 2, 2021</time>
+<p>With an RNG, a computer is able to now able to utilize randomness for applications like shuffling a playlist of songs or randomizing a deck of virtual cards on a gambling website.</p>
+<p>Today we&rsquo;ll take a look at what randomness looks like and how we can make our own pseudo-random numbers.</p>
+<h2 id="what-does-randomness-look-like">What Does Randomness Look Like?</h2>
+<h3 id="fairness">Fairness</h3>
+<p>To understand how computers generate random numbers, we first need to understand what exactly we want from a sequence of numbers.</p>
+<p>I&rsquo;ll roll a 6-sided die a hundred times and see how the results spread out.</p>
+<table>
+<thead>
+<tr>
+<th>Dice Roll</th>
+<th>Number of times Rolled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>11</td>
+</tr>
+<tr>
+<td>3</td>
+<td>12</td>
+</tr>
+<tr>
+<td>4</td>
+<td>11</td>
+</tr>
+<tr>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>6</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>We notice that despite being random, the average number of rolls for each number is about 10. Counting 10 out of 60 total rolls is in line with what everyone knows intuitively: there is a \(\frac{1}{6}\) chance for each side to be rolled.</p>
+<p>This reveals something we want from our random number generator. We want our RNG to be fair and generate different numbers with the same probability. Imagine playing Monopoly against someone who keeps rolling 6&rsquo;s. Not very fun huh?</p>
+<figure>
+    <img src="/ox-hugo/valuemodels_-_with_people.jpg" width="100%"/> 
+</figure>
 
-            
-            
-                
-                    <a class="tag" href="/tags/tv">#tv</a>
-                
-                    <a class="tag" href="/tags/anime">#anime</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="https://jparcill.github.io/posts/october_book_2020/">
-                    October Book Update
-                </a>
-            </h2>
-            <div>
-                <p>Lessons Learned Despite convincing myself that I&rsquo;d be reading at my teenage pace of a book per week, at the end of July, I had only read 1 out of the 3 books I wanted to finish.</p>
-                
-                <p><a href="/posts/october_book_2020/">Read more...</a></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>October 11, 2020</time>
+<h3 id="no-patterns">No Patterns</h3>
+<p>It&rsquo;s not enough to be able to generate different numbers at equal parts. The numbers have to also look as random as possible. Imagine if I told my computer to roll virtual dice and it outputted the following results:</p>
+<ul>
+<li>1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6</li>
+</ul>
+<p>This would pass our previous criterion of being fair. However, the results are clearly not random. To appear random means that <em>no obvious patterns should emerge</em>.</p>
+<p>Let&rsquo;s compare our &ldquo;dummy&rdquo; computer to actual dice rolls.</p>
+<figure>
+    <img src="/ox-hugo/2021-03-03-Marh-03m-1614805585s.png"/> 
+</figure>
 
-            
-            
-                
-                    <a class="tag" href="/tags/reading">#reading</a>
-                
-            
-            </div> 
-           
-        </article>
-        
+<p>As we can see from our actual dice rolls, there is no discernable pattern over time. That first plot is something we want from our random number generator.</p>
+<p>So all in all, our two main criteria for our random number generator is:</p>
+<ol>
+<li>Each roll is fair</li>
+<li>There are no discernable patterns over time</li>
+</ol>
+<h2 id="introducing-the-middle-square-method">Introducing the Middle Square Method</h2>
+<p>One of the earliest random number generators is called the &ldquo;middle-square method&rdquo;. The method creates random numbers from 1 to 9999.</p>
+<ol>
+<li>Pick a &ldquo;seed&rdquo; number from 1 to 999</li>
+<li><strong>Square</strong> that seed number.</li>
+<li><strong>Remove</strong> 2 digits from both sides. The result is your new number</li>
+</ol>
+<p>Might be a bit to take in but it&rsquo;s best understood with an example. For <strong>step 1</strong> I&rsquo;ll choose <strong>5832</strong> as my seed number.</p>
+<p><strong>Step 2</strong></p>
+<p>\[
+5832 * 5832 = 34012224
+\]</p>
+<p><strong>Step 3</strong></p>
+<p>\[
+\sout{34}0122\sout{24} = 0122
+\]</p>
+<p>122 is our random number.</p>
+<p>If we want to make more new numbers we can go back to step 1 using 122 as our new seed!</p>
+<p>\[
+122 * 122 = 00014884
+\]</p>
+<p>\[
+\sout{00}0148\sout{84} = 0148
+\]</p>
+<p>So far we&rsquo;ve had a sequence of 5832, 122, and 148. Let&rsquo;s see what happens if we keep doing this 50 times.</p>
+<figure>
+    <img src="/ox-hugo/2021-03-03-Marh-03m-1614809832s.png"/> 
+</figure>
+
+<p>Seems pretty random to me!</p>
+<h2 id="what-about-the-dice-roll">What About the Dice Roll?</h2>
+<p>How do we simulate a dice roll out of this? Unless we&rsquo;re in need of a 10000-sided die, this doesn&rsquo;t seem to be very useful.</p>
+<p>All we need to do is to split 10000 into 6 roughly equal parts:</p>
+<ul>
+<li>1 to 1667</li>
+<li>1668 to 3333</li>
+<li>3334 to 5000</li>
+<li>5001 to 6667</li>
+<li>6668 to 8333</li>
+<li>8334 to 10000</li>
+</ul>
+<p>If a number falls into the first part it will be like rolling a 1. If a number falls into the second part it will be like rolling a 2. So on and so forth.</p>
+<p>Let&rsquo;s plot the rolls against real dice.</p>
+<figure>
+    <img src="/ox-hugo/2021-03-04-Marh-03m-1614885970s.png"/> 
+</figure>
+
+<p>Our dice rolls seem just as random as actual dice. How are the rolls distributed?</p>
+<table>
+<thead>
+<tr>
+<th>Dice Roll</th>
+<th>Num of Times Rolled - Virtual Die</th>
+<th>Num of Times Rolled - Actual Die</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>14</td>
+<td>11</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>4</td>
+<td>7</td>
+<td>11</td>
+</tr>
+<tr>
+<td>5</td>
+<td>13</td>
+<td>9</td>
+</tr>
+<tr>
+<td>6</td>
+<td>9</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>If we compare our virtual die to our actual die that we rolled earlier, they both revolve closely to 10. Our new virtual dice roller works wonders. Hopefully, you&rsquo;ve come out of this realizing that even you can roll dice similar to a computer!</p>
+
+        </p>
     </div>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jaredarcilla" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+    <div class="page-footer">
         
-        <div class="paginator">
+        <hr class="footer-divider">
         
+            <a class="tag" href="/tags/math">#math</a>
         
-        <p>Page 1 of 3</p>
-        <div class="paginator-group">
-            
-            
-                <a class="color-link older" href="/page/2/">
-                    Older
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                            <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
-                                <polygon points="7.6707477 1.37628835 8.3292523 0.623711653 12.7592994 4.50000282 8.32918951 8.37629079 7.67069049 7.62370921 11.2407006 4.49999718"></polygon>
-                                <polygon id="Path" points="0 5 0 4 12 4 12 5"></polygon>
-                            </g>
-                    </svg>
-                        
-                </a>
-            
-        </div>
+            <a class="tag" href="/tags/stats">#stats</a>
         
+      
     </div>
+
 
         
 
